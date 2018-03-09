@@ -7,8 +7,6 @@ $(document).ready(function () {
   var elements = document.getElementsByClassName("form-input");
   var button = document.getElementById("submit");
 
-  console.log(elements);
-
 
   button.addEventListener("click", () => {
     for (let i = 0; i < elements.length; i++) {
