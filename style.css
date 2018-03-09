@@ -20,7 +20,7 @@
 
 .custom-gradient .full-bg-img {
     background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
     background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
 }
 
@@ -47,4 +47,22 @@ h6 {
     .full-height header .view {
         height: 1040px;
     }
+}
+
+.form-input {
+    box-shadow: 0rem 0rem .1rem rgb(109, 108, 108);
+    border: none;
+}
+
+.form-input:focus {
+    box-shadow: 0rem 0rem .15rem #ffa000;
+    border-color: #ffa000;
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem #ffa000;
+}
+.form-input::placeholder {
+    color: red;
+}
+.invalid {
+    border-bottom: 2px solid rgb(241, 58, 58);
 }
